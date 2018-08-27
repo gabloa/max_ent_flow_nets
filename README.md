@@ -1,2 +1,3 @@
-# max_ent_flow_nets
-Code for Maximum Entropy Flow Networks
+# Maximum Entropy Flow Networks
+
+This repo contains the code from [this paper](https://arxiv.org/pdf/1701.03504.pdf). A pre-trained VGG network is required for texture generation, we used [this implementation](https://github.com/ry/tensorflow-vgg16/raw/master/vgg16-20160129.tfmodel.torrent). Code for building the penalty with a VGG network from [this paper](https://arxiv.org/abs/1603.03417) is based from [this](https://github.com/ProofByConstruction/texture-networks). To run the texture generation code, an implementation of [real NVP](https://arxiv.org/abs/1605.08803) is needed, we used [this one](https://github.com/taesung89/real-nvp).
